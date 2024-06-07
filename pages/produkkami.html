@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../aset/motorcycle.svg" />
+    <title>Klub Moge</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="../aset/motorcycle.svg" height="48" class="d-inline-block align-text-top" alt="Logo" /> Klub Moge </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visidanmisi.html">Visi dan Misi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="produkkami.html">Produk Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hubungikami.html">Kontak Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu Lain</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu Lain</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <!-- Isi dari sidebar -->
+        <ul class="list-group">
+          <li class="list-group-item"><a href="artikel.html">Artikel</a></li>
+          <li class="list-group-item"><a href="event.html">Event</a></li>
+          <li class="list-group-item"><a href="galeryfoto.html">Galery Foto</a></li>
+          <li class="list-group-item"><a href="klienkami.html">Klien Kami</a></li>
+          <li class="list-group-item"><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- List Produk -->
+    <section class="container mt-3">
+      <div class="row">
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/filteroli.png" class="card-img-top" alt="Produk 1" />
+            <div class="card-body">
+              <h5 class="card-title">Filter Oli</h5>
+              <p class="card-text">Komponen penting untuk menyaring kotoran dan partikel dari oli mesin.</p>
+              <p class="card-text">Harga: Rp. 50.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/akimotor.png" class="card-img-top" alt="Produk 2" />
+            <div class="card-body">
+              <h5 class="card-title">Aki Motor</h5>
+              <p class="card-text">Menyimpan energi listrik untuk menyalakan mesin dan komponen elektrik kendaraan.</p>
+              <p class="card-text">Harga: Rp.350.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/banmotor.png" class="card-img-top" alt="Produk 3" />
+            <div class="card-body">
+              <h5 class="card-title">Ban Motor</h5>
+              <p class="card-text">Ban Merek terbaik, memberikan traksi dan daya cengkeram saat di jalan.</p>
+              <p class="card-text">Harga: Rp.200.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/busimotor.png" class="card-img-top" alt="Produk 4" />
+            <div class="card-body">
+              <h5 class="card-title">Busi Motor</h5>
+              <p class="card-text">Menghasilkan percikan api untuk menyalakan campuran bahan bakar dan udara di mesin</p>
+              <p class="card-text">Harga: Rp.45.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/kampasrem.png" class="card-img-top" alt="Produk 5" />
+            <div class="card-body">
+              <h5 class="card-title">Kampas Rem Depan</h5>
+              <p class="card-text">Kampas rem depan dengan kualitas terbaik untuk memperlambat atau menghentikan kendaraan</p>
+              <p class="card-text">Harga: Rp.50.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+        <!-- Produk Card -->
+        <div class="col-md-4">
+          <div class="card mt-2" id="gambar-card">
+            <img src="../aset/shockbreaker.png" class="card-img-top" alt="Produk 6" />
+            <div class="card-body">
+              <h5 class="card-title">Shock Belakang</h5>
+              <p class="card-text">Meredam getaran dan guncangan dari permukaan jalan, meningkatkan kenyamanan berkendara</p>
+              <p class="card-text">Harga: Rp.245.000</p>
+              <a href="#" class="btn btn-primary col-md-12">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-5 footer">
+      <div class="container">
+        <p>&copy; 2024 Klub Moge - Arsyanda. All Rights Reserved.</p>
+        <p>Kontak kami: <a href="mailto:arsyanda4@gmail.com" class="text-white">arsyanda4@gmail.com</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

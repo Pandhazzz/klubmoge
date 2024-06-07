@@ -1,0 +1,71 @@
+:root {
+  scroll-behavior: smooth;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  margin-right: 10px;
+}
+section p {
+  text-align: justify;
+}
+.profil {
+  max-width: 300px;
+}
+.carousel-inner img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.visimisi {
+  max-width: 800px;
+  padding: 5px;
+}
+.tentangkami {
+  max-width: 800px;
+  padding: 5px;
+}
+.card img {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+.card-title {
+  text-decoration: none;
+}
+.card-title a:hover {
+  text-decoration: none;
+}
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  margin-top: auto;
+  padding: 20px 0;
+}
+.list-group a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .visimisi {
+    max-width: 100%;
+  }
+  .tentangkami {
+    max-width: 100%;
+  }
+}
